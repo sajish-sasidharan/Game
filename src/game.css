@@ -1,0 +1,38 @@
+.split {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+/* Control the left side */
+.left {
+  background-color: #04be66;
+}
+
+/* Control the right side */
+
+.leftcontainer {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  padding: 10px;
+  padding-top: 30px;
+
+  transform: translate(-50%, -50%);
+
+  width: 355px;
+  height: 480px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding-left: 30px;
+}
+
+.root {
+  color: "green";
+}
